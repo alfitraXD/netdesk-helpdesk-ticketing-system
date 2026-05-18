@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment / local config
+.env
+.env.local
+config/local.php
+
+# Logs and cache
+*.log
+*.tmp
+.cache/
+
+# Dependency folders if added later
+vendor/
+node_modules/
+
+# Build / archives
+*.zip
+*.rar
+*.7z
+
+# Uploaded user files if feature is added later
+uploads/*
+!uploads/.gitkeep
